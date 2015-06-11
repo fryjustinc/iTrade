@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="register.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="register.js">
+<!--
+
+//-->
+</script>
+</head>
+<body>
+<div id="outer">
+<h1>Register</h1>
+<div id="status" style="text-align: center; width: 100%"></div>
+ <label for="name">Username</label><br/>
+
+ <input type="text" id="name" name="name"/><br/>
+
+ <label for="password">Password</label><br/>
+
+ <input type="password" id="password" name="password"/><br/>
+
+ <label for="confirmpassword">Confirm Password</label><br/>
+
+ <input type="password" id="passwordcheck" name="confirmpassword"/><br/>
+ 
+<label for="difficulty">Starting Difficulty</label><br/>
+<select name="difficulty" id="difficulty">
+<option value="10000">Easy $10000</option>
+<option value="5000">Medium $5000</option>
+<option value="2500">Hard $2500</option>
+</select> <br/>
+<br/>
+ <input style="display:block; margin-left: auto; margin-right: auto" type="submit" value="Register" onclick="myFunction();"/>
+</div>
+</body>
+
+</html>

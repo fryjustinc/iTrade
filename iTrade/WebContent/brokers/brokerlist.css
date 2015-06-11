@@ -1,0 +1,55 @@
+html,body{
+	margin: 0;
+	padding:0;
+}
+h1{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#outer{
+	margin-left: auto;
+    margin-right: auto;
+    //width: 200px;
+}
+select{
+	width: 100%;
+}
+input{
+	width:100%;
+	text-align:center;
+}
+.create{
+	width: 100px;
+}
+#status{
+	background-color: red;
+	text-align: center;
+}
+.blist {
+	display: flex;
+}
+.bno{
+	display: flex;
+		flex-grow:10;
+}
+.bname{
+	display: flex;
+		flex-grow:20;
+}
+.blimit{
+	display: flex;
+		flex-grow:10;
+}
+.btime{
+	display: flex;
+		flex-grow:10;
+}
+.binput{
+	display: flex;
+		flex-grow:10;
+		max-width: 80px;
+		min-width:60px;
+		margin-left: auto; 
+		margin-right: auto
+}

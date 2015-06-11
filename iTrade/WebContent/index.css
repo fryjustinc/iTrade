@@ -1,0 +1,237 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: cadetblue;
+	height: 100%;
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#outer {
+	margin-left: auto;
+	margin-right: auto; //
+	width: 200px;
+}
+
+select {
+	width: 100%;
+}
+
+input {
+	width: 80px;
+	text-align: center;
+}
+
+.create {
+	width: 100px;
+}
+
+#status {
+	background-color: red;
+	text-align: center;
+}
+
+.blistt {
+	display: flex;
+}
+/*row container*/
+.blist {
+	display: flex;
+}
+
+/*Broker and common rows*/
+.bno {
+	display: flex;
+	flex-grow: 5;
+	width: 1px;
+	border-bottom: solid 1px rgba(111, 111, 111, 0.2);
+}
+
+.bname {
+	display: flex;
+	flex-grow: 12;
+	width: 1px;
+	border-bottom: solid 1px rgba(111, 111, 111, 0.2);
+}
+
+.blimit {
+	display: flex;
+	flex-grow: 6;
+	width: 1px;
+	border-bottom: solid 1px rgba(111, 111, 111, 0.2);
+}
+
+.btime {
+	display: flex;
+	flex-grow: 8;
+	width: 1px;
+	border-bottom: solid 1px rgba(111, 111, 111, 0.2);
+}
+
+.bgap {
+	display: flex;
+	flex-grow: 4;
+	width: 1px;
+}
+
+.action {
+	display: flex;
+	width: 1px;
+	flex-grow: 16;
+	border-bottom: solid 1px rgba(111, 111, 111, 0.2);
+}
+/*Row Headers*/
+.bnot {
+	display: flex;
+	flex-grow: 5;
+	width: 1px;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.bnamet {
+	display: flex;
+	flex-grow: 12;
+	width: 1px;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.blimitt {
+	display: flex;
+	flex-grow: 6;
+	width: 1px;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.btimet {
+	display: flex;
+	flex-grow: 8;
+	width: 1px;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.bactiont {
+	display: flex;
+	flex-grow: 16;
+	width: 1px;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#bselecter {
+	width: 100px;
+	display: inline-block;
+}
+
+.biginput {
+	width: 200px;
+	display: inline-block;
+}
+
+#btyper {
+	width: 100px;
+	display: inline-block;
+}
+
+#shares {
+	width: 100px;
+	display: inline-block;
+}
+
+#suboffer {
+	width: 100px;
+	display: inline-block;
+}
+
+#subshares {
+	width: 100px;
+	display: inline-block;
+}
+
+.binput {
+	display: flex;
+	flex-grow: 4;
+	width: 1px;
+	/*max-width: 80px;
+	min-width: 60px;
+	margin-left: auto;
+	margin-right: auto*/
+}
+
+.fundsheader {
+	margin: auto;
+	display: block;
+	text-align: center;
+	font-size: 24pt;
+}
+
+.innerbubble {
+	background-color: white;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 16px;
+	padding-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	width: 90%;
+	-webkit-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	overflow-y: auto;
+	height: 90%;
+}
+
+.tabs {
+	text-align: center;
+	display: flex;
+	flex-grow: 25;
+	background: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 35px;
+	justify-content: center;
+	font-size: 18pt;
+	cursor: pointer;
+}
+
+#brokers {
+	width: 95%;
+	height: 90%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	background: white;
+	margin: auto;
+	margin-left: 2.5%;
+	border-radius: 30px;
+	position: absolute;
+	margin-top: 15px;
+}
+
+#brokername {
+	text-align: center;
+	font-size: 24pt;
+}
+
+.title {
+	text-align: center;
+	font-size: 16pt;
+}
+
+.hidden {
+	visibility: hidden;
+}

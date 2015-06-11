@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="brokerlist.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="brokerlist.js">
+<!--
+
+//-->
+</script>
+</head>
+<body onload="brokers();">
+<div id="broker" style="width:200px; display:inline-block"></div>
+<div id="outer">
+<div id="brokers"></div>
+<div style="display: inline-block;">
+<label id="label1" for="name">Broker Name</label>
+<input class="create" id="name" type="text">
+<label id="label2" for="limit">Trade Limit</label>
+<input class="create" type="text" id="limit">
+<label id="label3" for="time">Trade Time</label>
+<input class="create" id="time" type="text"></div>
+<input class="create" type="button" value="Create" onclick="createBroker();">
+</div>
+</body>
+</html>
